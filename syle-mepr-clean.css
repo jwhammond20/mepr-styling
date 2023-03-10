@@ -1,0 +1,273 @@
+.have-coupon-link {
+  display: none;
+}
+
+.mp-form-row.mepr_coupon {
+  display: block;
+}
+
+label.mepr-checkbox-field.mepr-form-input {
+  background-color: transparent;
+  font-family: "teko" !important;
+  font-weight: 400;
+}
+
+.mepr-form-input {
+  background-color: #eef3f8 !important;
+  border-radius: 5px !important;
+  font-family: "source sans pro" !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  border: none !important;
+}
+
+.mepr-form-input:focus {
+  background-color: #eef3f8 !important;
+}
+
+.mp-form-label {
+  font-family: "teko";
+  font-size: 18px;
+  font-weight: 500;
+  color: #b2150d;
+  text-transform: uppercase;
+}
+
+.mp_wrapper .mp-form-row {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+span.mp-password-strength-display {
+  border-radius: 10px !important;
+  font-size: 14px;
+}
+
+span.mp-password-strength-display.mp-nopass {
+  background-color: transparent !important;
+}
+
+.mepr-submit {
+  background-color: #297db9 !important;
+  color: white !important;
+  padding: 10px 35px 8px 35px !important;
+  border-radius: 10px !important;
+  font-size: 18px !important;
+}
+
+.mepr-submit:hover {
+  background-color: #fff;
+  color: #297db9;
+}
+
+.mepr-payment-methods-wrapper hr,
+label.mepr-checkbox-field.mepr-form-input {
+  display: none !important;
+}
+
+label.mepr-payment-option-label {
+  display: block;
+  padding: 15px;
+  border: 1px solid #ccc !important;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 0px !important;
+}
+
+.mepr-payment-methods-radios {
+  display: flex;
+  flex-direction: column;
+}
+
+.mepr-payment-method-label-text {
+  font-weight: 600 !important;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.mp_wrapper .mp_invoice {
+  margin-bottom: 20px;
+}
+
+table.mp-table {
+  border: 1px !important;
+  border-radius: 10px;
+  margin: 0;
+}
+
+table.mp-table th {
+  border-width: 0 0 0px 0 !important;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 0px;
+}
+
+.mp-table thead th:last-child {
+  text-align: right;
+}
+
+table.mp-table td {
+  border-width: 0 0 1px 0 !important;
+  padding: 0;
+  align-content: stretch !important;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+wp-submit.button-primary.mepr-share-button {
+  border: 1px;
+  border-color: #990000;
+  border-radius: 10px;
+}
+
+/* My account edit */
+mepr-account-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.mepr-nav-item {
+  padding-right: 1px;
+  font-family: "teko";
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  color: #990000 !important;
+}
+
+.mepr-nav-item .customize-unpreviewable {
+  display: none !important;
+}
+
+.mepr-nav-item.mepr-active-nav-tab a {
+  background-color: #b2150d;
+  color: white;
+}
+
+.mepr-nav-item a {
+  padding: 6px 15px;
+  background-color: #eef3f8;
+  border: none;
+  border-radius: 5px;
+}
+
+.mepr-nav-item a:hover {
+  color: #297db9;
+  padding: 6px 15px;
+  background-color: #CCD5E2;
+  border: none;
+  border-radius: 5px;
+}
+
+#mepr-account-welcome-message {
+  display: none !important;
+}
+
+.mepr-account-change-password {
+  display: none !important;
+}
+
+@media (max-width: 800px) {
+  .mepr-nav-item {
+    display: block;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px !important;
+    padding: 0px !important;
+  }
+  
+  .mepr-nav-item a {
+    display: block;
+    height: 100%;
+    padding: 4px;
+    background-color: #eef3f8;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+}
+
+/* Subscription table */
+.mepr-account-table {
+  text-align: left;
+  border: none !important;
+  color: #818a91;
+}
+
+.mepr-account-table .mepr-account-product {
+  font-size: 14px !important;
+}
+
+.mepr-account-table .mepr-account-subscr-id {
+  font-size: 12px;
+}
+
+.mepr-account-table td {
+  border-width: 1px 0px 0px 0 !important;
+  vertical-align: middle;
+}
+
+.mepr-account-table tr {
+  border: none !important;
+}
+
+.mepr-account-table thead {
+  color: black;
+}
+
+.mepr-account-table th {
+  border: none;
+  white-space: nowrap;
+}
+
+.mepr-account-auto-rebill {
+  font-size: 14px;
+}
+
+.mepr-account-created-at {
+  font-size: 14px;
+}
+
+.mepr-account-actions {
+  display: inline-block;
+  font-family: "teko";
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.mepr-account-row-action {
+  background-color: #297db9;
+  white-space: nowrap;
+  text-align: center;
+  color: white !important;
+  padding: 2px 20px;
+  border-radius: 5px;
+}
+
+.mepr-account-active {
+  font-size: 14px;
+}
+
+.mepr-account-rebill {
+  font-size: 14px;
+}
+
+.mepr-account-terms {
+  font-size: 14px;
+}
+
+@media (max-width: 800px) {
+  .mepr-account-table tr {
+    margin-bottom: 10px !important;
+    display: block;
+  }
+  
+  .mepr-subscription-row {
+    font-size: 12px;
+		border-radius: }}
+
+
